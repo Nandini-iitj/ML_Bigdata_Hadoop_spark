@@ -2,19 +2,18 @@
 
 Distributed data processing implementations on Project Gutenberg book corpus (425+ books).
 
+## Structure
 ```
-##  Structure
-```
-├── hadoop/                       # MapReduce jobs (Java) - Q1-Q9
-│   ├── WordCount.java            # The latest edited WordCount code for Q5
-│   ├── WordCount_q1.java         # Basic version of wordcount used in Q1,2,3
-│   ├── WordCount_q4.java         # Version 2 od WordCount.Java edited for Q4. 
+├── hadoop/                        # MapReduce jobs (Java) - Q1-Q9
+│   ├── WordCount.java             # Latest edited WordCount for Q5
+│   ├── WordCount_q1.java          # Basic version for Q1, Q2, Q3
+│   └── WordCount_q4.java          # Version 2 for Q4
 │
-└── spark/                        # Spark analytics (Python) - Q10-Q12
-    ├── load_books.py             # Data loader
-    ├── q10_metadata.py           # Metadata extraction
-    ├── q11_tfidf.py              # TF-IDF similarity
-    └── q12_author_influence.py   # Author influence network
+└── spark/                         # Spark analytics (Python) - Q10-Q12
+    ├── load_books.py              # Data loader
+    ├── q10_metadata.py            # Metadata extraction
+    ├── q11_tfidf.py               # TF-IDF similarity
+    └── q12_author_influence.py    # Author influence network
 ```
 
 ## Quick Start
