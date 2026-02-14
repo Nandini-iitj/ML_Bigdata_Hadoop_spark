@@ -1,0 +1,10 @@
+# System files
+.DS_Store
+*.log
+
+# Compiled
+*.class
+
+# Python
+__pycache__/
+*.pyc
